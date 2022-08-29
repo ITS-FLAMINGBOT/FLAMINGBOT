@@ -54,7 +54,7 @@ RUN axel https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_l
 #Import Gudz
 RUN wget https://raw.githubusercontent.com/ITS-FLAMINGBOT/bl/master/lightningrun.py
 RUN wget https://raw.githubusercontent.com/ITS-FLAMINGBOT/blg/master/requirements.txt
-pip install --upgrade pip
+RUN pip install --upgrade pip
 RUN pip3 install -r requirements.txt
 
 CMD ["python3","lightningrun.py"]
