@@ -53,7 +53,7 @@ RUN axel https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.d
 RUN axel https://chromedriver.storage.googleapis.com/88.0.4324.96/chromedriver_linux64.zip && unzip chromedriver_linux64.zip && chmod +x chromedriver && mv -f chromedriver /usr/bin/ && rm chromedriver_linux64.zip
 #Import Gudz
 RUN wget https://raw.githubusercontent.com/ITS-FLAMINGBOT/bl/master/lightningrun.py
-RUN wget https://raw.githubusercontent.com/ITS-FLAMINGBOT/blg/master/requirements.txt
+RUN wget https://raw.githubusercontent.com/ITS-FLAMINGBOT/bl/master/requirements.txt
 RUN pip install --upgrade pip
 RUN pip3 install -r requirements.txt
 
