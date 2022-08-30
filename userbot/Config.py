@@ -15,7 +15,7 @@ class Var(object):
         LIGHTNING_PRO = LIGHTNING_PRO
 
     API_HASH = os.environ.get("API_HASH", "3b5d73f27080334a1d730087b552519b")
-    STRING_SESSION = os.environ.get("STRING_SESSION", "1234")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1BVtsOHEBu2e7ssbfeUIVXTojCMwXf0eHj4DT9Z9eb9cOK06aEhX8Qm4jVKzfuq5ggB0-k1JRK1LRN-AzWoCYEWL8ttPffUm4UAy8N_uGmCYJ6zqpzUpOiRAcvu4Rhs-1wiRq2Wv4K65CNcf3v0oc6WYwMluic_Hji7320dFCfozCm59IfFDeEkRDA-bW4Xr35jOOOvJMP2kt0A2vEf-lp4junByTmT6qm27XWuUMRrZQVhuBjWbD6iWsp51BWHOW7u1cHVxIPPuLlfV0_UpUN5Rmy0-ayxfOpdjcb4uy4rxnOkyARMN41lheMZ0LOPMVxJml8uTq0CLbNa5Zxblh0Nzymf8nrvU=")
     DB_URI = os.environ.get("DATABASE_URL", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/")
     BIO_MSG = os.environ.get("BIO_MSG", None)
@@ -64,7 +64,7 @@ class Var(object):
     NO_SONGS = bool(os.environ.get("NO_SONGS", False))
     DOWNLOAD_PFP_URL_CLOCK = os.environ.get("DOWNLOAD_PFP_URL_CLOCK", None)
     MAX_FLOOD_IN_P_M_s = os.environ.get("MAX_FLOOD_IN_P_M_s", "3")
-    COMBINED_GROUP_ID = int(os.environ.get("COMBINED_GROUP_ID", -100))
+    COMBINED_GROUP_ID = int(os.environ.get("COMBINED_GROUP_ID", "-687989817"))
     PLUGIN_CHANNEL = os.environ.get("PLUGIN_CHANNEL", f"{COMBINED_GROUP_ID}")
     G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
     MAX_MESSAGE_SIZE_LIMIT = 4095
