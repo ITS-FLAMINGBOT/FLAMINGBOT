@@ -6,7 +6,7 @@ ENV = bool(os.environ.get("ENV", False))
 
 
 class Var(object):
-    APP_ID = int(os.environ.get("APP_ID", 6))
+    APP_ID = int(os.environ.get("APP_ID", "5520909793"))
     # 6 is a placeholder
     LIGHTNING_PRO = os.environ.get("LIGHTNING_PRO", None)
     if not LIGHTNING_PRO:
@@ -14,8 +14,8 @@ class Var(object):
     else:
         LIGHTNING_PRO = LIGHTNING_PRO
 
-    API_HASH = os.environ.get("API_HASH", None)
-    STRING_SESSION = os.environ.get("STRING_SESSION", None)
+    API_HASH = os.environ.get("API_HASH", "3b5d73f27080334a1d730087b552519b")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "1234")
     DB_URI = os.environ.get("DATABASE_URL", None)
     TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TEMP_DOWNLOAD_DIRECTORY", "./userbot/DOWNLOADS/")
     BIO_MSG = os.environ.get("BIO_MSG", None)
@@ -25,7 +25,7 @@ class Var(object):
     CHROME_DRIVER = os.environ.get("CHROME_DRIVER", "/usr/bin/chromedriver")
     GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", "/usr/bin/google-chrome")
     LOGGER = True
-    GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+    GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", "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")
     GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
     # Here for later purposes
     SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1311769691").split())
@@ -58,8 +58,8 @@ class Var(object):
     HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
     CUSTOM_ALIVE = os.environ.get("CUSTOM_ALIVE", None)
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-    TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", None)
-    TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", None)
+    TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", "5546654031:AAH9mLaNOiTVfzesjSSlT7QqawqNdP4cRec")
+    TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", "Lightning_by_owner_bot")
     TAG_LOG = os.environ.get("TAG_LOG", None)
     NO_SONGS = bool(os.environ.get("NO_SONGS", False))
     DOWNLOAD_PFP_URL_CLOCK = os.environ.get("DOWNLOAD_PFP_URL_CLOCK", None)
